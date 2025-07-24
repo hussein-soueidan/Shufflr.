@@ -1,0 +1,30 @@
+{
+  "package": {
+    "productName": "Shufflr",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "windows": [
+      {
+        "title": "Shufflr",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 600,
+        "titleBarStyle": "Overlay",
+        "hiddenTitle": true
+      }
+    ],
+    "allowlist": {
+      "all": false,
+      "fs": {
+        "scope": ["$DOWNLOAD", "$DOCUMENT"],
+        "all": true
+      },
+      "dialog": true,
+      "path": true,
+      "shell": true,
+      "window": true
+    }
+  }
+}
